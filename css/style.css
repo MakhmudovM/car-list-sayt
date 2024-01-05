@@ -1,0 +1,104 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;800;900&display=swap);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.header {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../img/menu.jpg");
+  background-size: cover;
+  background-position: center bottom;
+}
+
+.header-title {
+  font-size: 50px;
+}
+
+.sitenav-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.sitenav-link {
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff;
+}
+.cars {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 30px;
+  color: #fff;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.cars a {
+  font-size: 18px;
+  color: #fff;
+}
+
+.Mark-II {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../img/toyota-mark-2.jpg");
+}
+
+.RX-7 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../img/mazda-rx7.jpg");
+  background-position: bottom;
+}
+
+.Supra {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../img/supra.jpg");
+  background-position: bottom;
+}
+
+.Skyline {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../img/nisan-skyline.jpg");
+  background-position: bottom;
+}
+
+.Silvia {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../img/nisan-silvia.jpg");
+  background-position: bottom;
+}
+
+.about {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../img/footer.jpg");
+  background-position: bottom;
+}
